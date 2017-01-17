@@ -44,9 +44,9 @@ body {
 }
 
 nav {
-  font-family: 'Oswald', sans-serif;
-  font-size: 1.3em;
   margin: 1.5em 0 8.5em 0;
+  font-size: 1.3em;
+  font-family: 'Oswald', sans-serif;
 }
 
 nav a {
@@ -137,6 +137,28 @@ p {
 .thumb p {
   text-shadow: 2px 2px #000;
   visibility: hidden;
+  letter-spacing: 1px;
+}
+
+/*.thumb:hover {
+  background: #000;
+}
+
+.thumb.dark:hover {
+  background: #000;
+}*/
+
+/*.thumb:hover:after {
+  box-shadow: inset 0 0 100px #5c705d;
+}
+
+.thumb.dark:hover:after {
+  box-shadow: inset 0 0 100px #5c3e52;
+}*/
+
+
+.thumb:hover {
+  filter: brightness(70%);
 }
 
 .no-csstransforms h3 {
@@ -163,33 +185,27 @@ p {
 /**************** TILE PICS *******************/
 
 #nili {
-  background: url(../images/nili.jpg);
-  background-position: -50px -40px;
+  background: url(../images/nili.jpg) no-repeat -50px -40px;
 }
 
 #prm {
-  background: url(../images/prm.jpg);
-  background-position: -50px -40px;
+  background: url(../images/prm.jpg) no-repeat -50px -50px;
 }
 
 #ledlenser {
-  background: url(../images/ledlenser.jpg);
-  background-position: -50px -40px;
+  background: url(../images/sizzlepie.jpg) no-repeat -50px -40px;
 }
 
 #sizzlepie {
-  background: url(../images/sizzlepie.jpg);
-  background-position: -50px -40px;
+  background: url(../images/sizzlepie.jpg) no-repeat -50px -40px;
 }
 
 #frankjr {
-  background: url(../images/frankjr.jpg);
-  background-position: -50px -40px;
+  background: url(../images/frankjr.jpg) no-repeat -50px -40px;
 }
 
 #envision {
-  background: url(../images/envision.jpg);
-  background-position: -50px -40px;
+  background: url(../images/envision.jpg) no-repeat -50px -40px;
 }
 
 /************** MEDIA QUERIES ************/
