@@ -31,7 +31,7 @@ menu, nav, section, summary {
 }
 
 body {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #5c3e52;
 }
 
@@ -44,8 +44,9 @@ body {
 }
 
 nav {
-  margin: 1.5em 0 8.5em 0;
+  font-family: 'Oswald', sans-serif;
   font-size: 1.3em;
+  margin: 1.5em 0 8.5em 0;
 }
 
 nav a {
@@ -84,17 +85,17 @@ nav a:first-child {
   margin-left: 49px;
 }
 
-
 .thumb {
-  background: url(../images/sprite.jpg);
+  background-color: #ddd;
   position: relative;
-  overflow: hidden; }
+  overflow: hidden;
+}
 
 .thumb:after {
   content: "";
   position: absolute;
-  top: -36px;
-  left: -36px;
+  top: -56px;
+  left: -18px;
   width: 250px;
   height: 250px;
   background: inherit;
@@ -115,14 +116,14 @@ p {
 
 .diamond p {
   position: relative;
-  line-height: 210px;
+  line-height: 215px;
   z-index: 1;
   -webkit-transform-origin: top left;
   -moz-transform-origin: top left;
   transform-origin: top left;
-  -webkit-transform: rotate(-45deg) translate(-89px, 0);
-  -moz-transform: rotate(-45deg) translate(-89px, 0);
-  transform: rotate(-45deg) translate(-89px, 0);
+  -webkit-transform: rotate(-45deg) translate(-75px, 0);
+  -moz-transform: rotate(-45deg) translate(-75px, 0);
+  transform: rotate(-45deg) translate(-75px, 0);
 }
 
 .empty {
@@ -134,47 +135,8 @@ p {
 }
 
 .thumb p {
+  text-shadow: 2px 2px #000;
   visibility: hidden;
-}
-
-#coffee {
-  background-position: 0 0;
-}
-
-#library {
-  background-position: -250px 0;
-}
-
-#dream {
-  background-position: -500px 0; }
-
-#roses {
-  background-position: -750px 0; }
-
-#cake {
-  background-position: -1000px 0; }
-
-#wine {
-  background-position: -1250px 0; }
-
-.thumb:hover {
-  background: #a5b8a6;
-}
-
-.thumb.dark:hover {
-  background: #bda3c1;
-}
-
-.thumb:hover:after {
-  box-shadow: inset 0 0 100px #5c705d;
-}
-
-.thumb.dark:hover:after {
-  box-shadow: inset 0 0 100px #5c3e52;
-}
-
-.diamond:hover p {
-  visibility: visible;
 }
 
 .no-csstransforms h3 {
@@ -196,6 +158,38 @@ p {
 
 .no-csstransforms .diamond p {
   line-height: 150px;
+}
+
+/**************** TILE PICS *******************/
+
+#nili {
+  background: url(../images/nili.jpg);
+  background-position: -50px -40px;
+}
+
+#prm {
+  background: url(../images/prm.jpg);
+  background-position: -50px -40px;
+}
+
+#ledlenser {
+  background: url(../images/ledlenser.jpg);
+  background-position: -50px -40px;
+}
+
+#sizzlepie {
+  background: url(../images/sizzlepie.jpg);
+  background-position: -50px -40px;
+}
+
+#frankjr {
+  background: url(../images/frankjr.jpg);
+  background-position: -50px -40px;
+}
+
+#envision {
+  background: url(../images/envision.jpg);
+  background-position: -50px -40px;
 }
 
 /************** MEDIA QUERIES ************/
