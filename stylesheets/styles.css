@@ -21,7 +21,7 @@ time, mark, audio, video {
 
 html {
   line-height: 1;
-  
+
 }
 
 article, aside, details, figcaption,
@@ -126,11 +126,11 @@ nav > ul li ul {
   z-index: 2000;
 }
 nav > ul li ul li > a {
-	  text-decoration: none;
+  text-decoration: none;
 }
 
 [type="checkbox"], label {
-	  display: none;
+  display: none;
 }
 
 @media screen and (max-width: 870px) {
@@ -156,15 +156,15 @@ nav > ul li ul li > a {
   }
 
 	[type="checkbox"]:checked ~ ul {
-  		display: block;
-  		z-index: 9999;
-  		position: absolute;
-		  right: 20px;
-		  left: 20px;
+    display: block;
+    z-index: 9999;
+    position: absolute;
+    right: 20px;
+    left: 20px;
 	}
 
 	nav a {
-		  color: #777;
+    color: #777;
 	}
 
   nav ul {
@@ -172,37 +172,37 @@ nav > ul li ul li > a {
 	}
 
 	nav ul li {
-		  display: block;
-  		float: none;
-  		width: 100%;
-  		text-align: left;
-  		background: #222;
-		  text-indent: 20px;
+    display: block;
+    float: none;
+    width: 100%;
+    text-align: left;
+    background: #222;
+    text-indent: 20px;
 	}
 
 	nav > ul > li {
-  		margin-left: 0px;
+    margin-left: 0px;
 	}
 
 	nav > ul li ul li {
-  		display: block;
-		  float: none;
+    display: block;
+    float: none;
 	}
   
 	nav > ul li ul {
-		  display: block;
-  		position: relative;
-  		width: 100%;
-		  z-index: 9999;
-		  float: none;
+    display: block;
+    position: relative;
+    width: 100%;
+    z-index: 9999;
+    float: none;
 	}
 
 }
 .inner {
-	  max-width: 1000px;
-	  margin: 0 auto;
-	  padding: 0px 20px;
-	  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0px 20px;
+  position: relative;
 }
 
 nav > ul {
@@ -241,7 +241,7 @@ nav > ul > li > a {
 }
 
 nav > ul > li {
-  	float: left;
+  float: left;
 }
 nav a {
   color: #717171;
@@ -255,11 +255,11 @@ nav > ul li ul {
   z-index: 2000;
 }
 nav > ul li ul li > a {
-	  text-decoration: none;
+  text-decoration: none;
 }
 
 [type="checkbox"], label {
-	  display: none;
+  display: none;
 }
 
 @media screen and (max-width: 870px) {
