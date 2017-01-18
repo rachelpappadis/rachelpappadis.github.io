@@ -9,37 +9,57 @@
 		<link rel="stylesheet" href="stylesheets/styles.css" type="text/css" media="screen">
 	</head>
 	<body>
-		<div class="wrap desktop">
+		<div class="inner">
 			<nav>
 				<a href="index.html" class="logo">
 					<img src="images/rachelpappadis.png" height="30" alt="Rachel Pappadis">
 				</a>
-				<a href="index.html">WORK</a>
-				<a href="contact.html">CONTACT</a>
-				<a href="resume.html">RESUME</a>
+				<input type="checkbox" id="nav" /><label for="nav"></label>
+				<ul>
+					<li><a href="resume.html">RESUME</a></li>
+					<li><a href="index.html">WORK</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
 			</nav>
+		</div>
+		<div class="wrap desktop">
+			<!--<div class="inner">
+				<nav>
+					<a href="../index.html" class="logo">
+						<img src="images/rachelpappadis.png" height="30" alt="Rachel Pappadis">
+					</a>
+					<input type="checkbox" id="nav" /><label for="nav"></label>
+					<ul>
+						<li><a href="../resume.html">RESUME</a></li>
+						<li><a href="../contact.html">CONTACT</a></li>
+						<li><a href="../index.html">WORK</a></li>
+					</ul>
+				</nav>
+			</div>-->
 
-			<!-- First Row -->
-			<div class="diamond break empty"></div>
-			<a class="diamond thumb" href="work/nili.html" id="nili"><p>NILI</p></a>
-			<div class="diamond empty"></div>
+			<div id="diamond-grid">
+				<!-- First Row -->
+				<div class="diamond break empty"></div>
+				<a class="diamond thumb" href="work/nili.html" id="nili"><p>NILI</p></a>
+				<div class="diamond empty"></div>
 
-			<!-- Second Row -->
-			<a class="diamond intend thumb" href="work/prm.html" id="prm"><p>PRM</p></a>
-			<a class="diamond dark thumb" href="work/ledlenser.html" id="ledlenser"><p>LED LENSER</p></a>
-			<div class="diamond solid-empty"></div>
-			<div class="diamond solid-empty"></div>
+				<!-- Second Row -->
+				<a class="diamond intend thumb" href="work/prm.html" id="prm"><p>PRM</p></a>
+				<a class="diamond dark thumb" href="work/ledlenser.html" id="ledlenser"><p>LED LENSER</p></a>
+				<div class="diamond solid-empty"></div>
+				<div class="diamond solid-empty"></div>
 
-			<!-- Third Row -->
-			<div class="diamond break solid-empty"></div>
-			<div class="diamond solid-empty"></div>
-			<a class="diamond thumb" href="work/sizzlepie.html" id="sizzlepie"><p>SIZZLE PIE</p></a>
-			<a class="diamond dark thumb" href="work/frankjr.html" id="frankjr"><p>FRANK JR</p></a>
+				<!-- Third Row -->
+				<div class="diamond break solid-empty"></div>
+				<div class="diamond solid-empty"></div>
+				<a class="diamond thumb" href="work/sizzlepie.html" id="sizzlepie"><p>SIZZLE PIE</p></a>
+				<a class="diamond dark thumb" href="work/frankjr.html" id="frankjr"><p>FRANK JR</p></a>
 
-			<!-- Fourth Row -->
-			<div class="diamond intend empty"></div>
-			<div class="diamond dark empty"></div>
-			<a class="diamond thumb" href="work/envision.html" id="envision"><p>ENVISION</p></a>
+				<!-- Fourth Row -->
+				<div class="diamond intend empty"></div>
+				<div class="diamond dark empty"></div>
+				<a class="diamond thumb" href="work/envision.html" id="envision"><p>ENVISION</p></a>
+			</div>
 		</div>
 
 		<div class="wrap mobile">
