@@ -19,11 +19,6 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-html {
-  line-height: 1;
-
-}
-
 article, aside, details, figcaption,
 figure, footer, header, hgroup,
 menu, nav, section, summary {
@@ -164,7 +159,7 @@ nav > ul li ul li > a {
 	}
 
 	nav a {
-    color: #777;
+    color: #383838;
 	}
 
   nav ul {
@@ -176,7 +171,7 @@ nav > ul li ul li > a {
     float: none;
     width: 100%;
     text-align: left;
-    background: #222;
+    background: #383838;
     text-indent: 20px;
 	}
 
@@ -190,14 +185,14 @@ nav > ul li ul li > a {
 	}
   
 	nav > ul li ul {
-    display: block;
+    display: inline-flex;
     position: relative;
     width: 100%;
     z-index: 9999;
     float: none;
 	}
-
 }
+
 .inner {
   max-width: 1000px;
   margin: 0 auto;
@@ -244,7 +239,7 @@ nav > ul > li {
   float: left;
 }
 nav a {
-  color: #717171;
+  color: #383838;
 }
 nav > ul li ul {
   display: none;
@@ -269,7 +264,7 @@ nav > ul li ul li > a {
 
 	label {
     display: block;
-    background: #222;
+    background: #fff;
     width: 40px;
     height: 40px;
     cursor: pointer;
@@ -289,11 +284,12 @@ nav > ul li ul li > a {
   }
 
 	[type="checkbox"]:checked ~ ul {
-    display: block;
+    display: inline-flex;
     z-index: 9999;
     position: absolute;
     right: 20px;
     left: 20px;
+    margin-top: 52px;
 	}
 
 	nav a {
@@ -311,6 +307,7 @@ nav > ul li ul li > a {
 
 	nav > ul > li {
     margin-left: 0px;
+    text-align: center;
 	}
 
 	nav > ul li ul li {
@@ -462,5 +459,10 @@ p {
 @media only screen and (max-width: 481px) {
   .desktop {
     display: none;
+  }
+
+  .logo img {
+    height: 24px;
+    margin: 8px 0 0;
   }
 }
