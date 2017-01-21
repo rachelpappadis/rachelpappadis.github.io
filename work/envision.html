@@ -4,9 +4,11 @@
 		<meta charset="utf-8">
 		<meta name="description" content="Rachel Pappadis Portfolio" />
 		<meta name="author" content="Rachel Pappadis" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Rachel Pappadis | Envision</title>
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
 		<link rel="stylesheet" href="../stylesheets/styles.css" type="text/css" media="screen">
+		<link rel="stylesheet" href="../bxslider/jquery.bxslider.css"/>
 	</head>
 	<body>
 		<div class="inner">
@@ -24,5 +26,23 @@
 		</div>
 
 		<h2 class="work-header">Envision</h2>
+
+		<ul id="envision-slideshow">
+			<li><img src="../images/envision/desktop.jpg"></li>
+			<li><img src="../images/envision/desktop2.jpg"></li>
+			<li><img src="../images/envision/mobile.jpg"></li>
+		</ul>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="../bxslider/jquery.bxslider.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				$('#envision-slideshow').bxSlider({
+					mode: 'fade',
+					auto: true,
+					slideWidth: 800
+				});
+			});
+		</script>
 	</body>
 </html>
