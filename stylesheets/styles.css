@@ -454,15 +454,74 @@ p {
   background: url(../images/envision.jpg) no-repeat -50px -40px;
 }
 
+/*************** HIDDEN TILES ***************/
+.fourth-row-first,
+.fourth-row-second,
+.fifth-row-second {
+  visibility: hidden;
+}
+
 /************** MEDIA QUERIES ************/
 
 @media only screen and (max-width: 481px) {
-  .desktop {
-    display: none;
-  }
-
   .logo img {
     height: 24px;
     margin: 8px 0 0;
   }
+}
+
+@media only screen and (max-width: 920px) {
+  .second-row-fourth {
+    visibility: hidden;
+  }
+
+  .wrap {
+    width: 981px;
+  }
+
+  body {
+    overflow:hidden;
+    overflow-y: visible;
+  }
+}
+
+@media only screen and (max-width: 815px) {
+  .fourth-row-first {
+    visibility: visible;
+  }
+
+  .third-row-fourth {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (max-width: 730px) {
+  .fourth-row-second,
+  .fifth-row-second {
+    visibility: visible;
+  }
+
+  .second-row-third,
+  .fourth-row-third {
+    visibility: hidden;
+  }
+
+  #third-row #sizzlepie {
+    background: #24a59e;
+  }
+
+  #third-row #sizzlepie:hover {
+    filter: brightness(100%);
+    cursor: default;
+  }
+}
+
+@media only screen and (max-width: 585px) {
+  /*.third-row-third {
+    visibility: hidden;
+  }
+
+  .fifth-row-second {
+    visibility: visible;
+  }*/
 }
