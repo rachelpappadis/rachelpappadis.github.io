@@ -343,7 +343,7 @@ nav > ul li ul li > a {
   transform: rotate(45deg);
 }
 
-.break {
+.odd {
   clear: left;
   margin-left: 49px;
 }
@@ -368,7 +368,7 @@ nav > ul li ul li > a {
   opacity: 1;
 }
 
-.intend {
+.even {
   clear: left;
   margin-left: 161px;
 }
@@ -416,11 +416,11 @@ p {
   margin-top: 0;
 }
 
-.no-csstransforms .intend {
+.no-csstransforms .even {
   margin-left: 197px;
 }
 
-.no-csstransforms .break {
+.no-csstransforms .odd {
   margin-left: 108px;
 }
 
@@ -454,17 +454,19 @@ p {
   background: url(../images/envision.jpg) no-repeat -50px -40px;
 }
 
-/*************** HIDDEN TILES ***************/
+/************** MEDIA QUERIES ************/
+
 .first-row-first,
 .fourth-row-first,
 .fourth-row-second,
 .fifth-row-first, 
 .fifth-row-second,
-.sixth-row-first {
+.sixth-row-first,
+.seventh-row-first,
+.eighth-row-first,
+.ninth-row-first {
   visibility: hidden;
 }
-
-/************** MEDIA QUERIES ************/
 
 @media only screen and (max-width: 930px) {
   .second-row-fourth {
@@ -534,5 +536,23 @@ p {
   .second-row-second,
   .fourth-row-second {
     visibility: hidden;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .first-row-second,
+  .third-row-second,
+  .fifth-row-second {
+    visibility: hidden;
+  }
+
+  .seventh-row-first,
+  .eighth-row-first,
+  .ninth-row-first {
+    visibility: visible;
+  }
+
+  .wrap {
+    margin-left: 2%;
   }
 }
