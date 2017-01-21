@@ -499,6 +499,7 @@ p {
   .fourth-row-second,
   .fifth-row-second {
     visibility: visible;
+    cursor: pointer;
   }
 
   .second-row-third,
