@@ -489,7 +489,7 @@ p {
   }
 }
 
-@media only screen and (max-width: 830px) {
+@media only screen and (max-width: 850px) {
   .fourth-row-first {
     visibility: visible;
   }
@@ -499,7 +499,7 @@ p {
   }
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 740px) {
   .fourth-row-second,
   .fifth-row-second {
     visibility: visible;
@@ -521,13 +521,13 @@ p {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 615px) {
   .third-row-third {
     visibility: hidden;
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 515px) {
   .logo img {
     height: 24px;
     margin: 8px 0 0;
@@ -545,7 +545,7 @@ p {
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 410px) {
   .first-row-second,
   .third-row-second,
   .fifth-row-second {
