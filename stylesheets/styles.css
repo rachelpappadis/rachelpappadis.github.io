@@ -39,6 +39,7 @@ h2 {
 .wrap {
   width: 1020px;
   margin: 0 auto;
+  height: 100vh;
   padding: 0px 0 100px;
   overflow: hidden;
   text-align: center;
@@ -52,6 +53,11 @@ h2 {
   text-align: center;
   clear: both;
   margin: 2em 0 1em;
+}
+
+#resume {
+  width: 100%;
+  height: auto;
 }
 
 /************ NAVBAR *************/
@@ -521,7 +527,7 @@ p {
   }
 }
 
-@media only screen and (max-width: 481px) {
+@media only screen and (max-width: 500px) {
   .logo img {
     height: 24px;
     margin: 8px 0 0;
