@@ -313,7 +313,7 @@ nav > ul li ul li > a {
     display: inline-flex;
     z-index: 9999;
     position: absolute;
-    right: 20px;
+    right: 25px;
     left: 20px;
     margin-top: 52px;
 	}
@@ -348,6 +348,18 @@ nav > ul li ul li > a {
     z-index: 9999;
     float: none;
 	}
+
+  #resume-link {
+    margin: 0 1em 0 -0.5em;
+  }
+
+  #index-link {
+    margin: 0 1em 0 0;
+  }
+
+  #contact-link {
+    margin: 0 1em 0 0;
+  }
 }
 
 
@@ -536,7 +548,7 @@ nav > ul li ul li > a {
   }
 }
 
-@media only screen and (max-width: 615px) {
+@media only screen and (max-width: 625px) {
   .third-row-third {
     visibility: hidden;
   }
