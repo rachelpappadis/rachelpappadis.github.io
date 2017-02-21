@@ -247,12 +247,15 @@ nav ul li:hover {
   cursor: pointer;
   position: relative;
 }
+
 nav ul li:hover > ul {
   display: block;
 }
+
 nav ul li:hover > a {
-  color: #777;
+  color: #ddd;
 }
+
 nav > ul > li > a {
   cursor: pointer;
   display: block;
@@ -337,8 +340,8 @@ nav > ul li ul li > a {
 	}
 
 	nav > ul li ul li {
-  		display: block;
-		  float: none;
+    display: block;
+    float: none;
 	}
   
 	nav > ul li ul {
