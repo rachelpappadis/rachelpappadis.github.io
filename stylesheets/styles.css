@@ -71,8 +71,18 @@ h2 {
   margin-bottom: 2em;
 }
 
+#download-resume {
+  display: block;
+  text-align: center;
+}
+
 a {
   color: #24a59e;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1b7b76;
 }
 
 /************ NAVBAR *************/
