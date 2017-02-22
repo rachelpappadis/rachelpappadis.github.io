@@ -7,6 +7,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Rachel Pappadis | PRM</title>
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+		<link rel="stylesheet" href="../bxslider/jquery.bxslider.css"/>
 		<link rel="stylesheet" href="../stylesheets/styles.css" type="text/css" media="screen">
 	</head>
 	<body>
@@ -25,5 +26,44 @@
 		</div>
 
 		<h2 class="work-header">Pacific Residential Mortgage</h2>
+
+		<h3>Flyers</h3><br />
+
+		<h3>Postcards</h3><br />
+		<ul id="PRMcards-slideshow">
+			<li><img src="../images/PRM/1954_RMNW.jpg"></li>
+			<li><img src="../images/PRM/1954_RMNW2.jpg"></li>
+			<li><img src="../images/PRM/VA.jpg"></li>
+			<li><img src="../images/PRM/co-op.jpg"></li>
+		</ul>
+
+		<h3>Website</h3><br />
+		<ul id="web-slideshow">
+			<li><img src="../images/PRM/web/old.jpg"></li>
+			<li><img src="../images/PRM/web/1.jpg"></li>
+			<li><img src="../images/PRM/web/2.jpg"></li>
+			<li><img src="../images/PRM/web/3.jpg"></li>
+			<li><img src="../images/PRM/web/4.jpg"></li>
+		</ul>
+
+		<h3>Promo Items </h3><br />
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="../bxslider/jquery.bxslider.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				$('#web-slideshow').bxSlider({
+					mode: 'fade',
+					auto: true,
+					slideWidth: 800
+				});
+
+				$('#PRMcards-slideshow').bxSlider({
+					mode: 'fade',
+					auto: true,
+					slideWidth: 800
+				});
+			});
+		</script>
 	</body>
 </html>

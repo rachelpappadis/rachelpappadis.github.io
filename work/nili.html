@@ -7,6 +7,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Rachel Pappadis | NILI</title>
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+		<link rel="stylesheet" href="../bxslider/jquery.bxslider.css"/>
 		<link rel="stylesheet" href="../stylesheets/styles.css" type="text/css" media="screen">
 	</head>
 	<body>
@@ -15,7 +16,8 @@
 				<a href="../index.html" class="logo">
 					<img src="../images/rachelpappadis.png" height="30" alt="Rachel Pappadis">
 				</a>
-				<input type="checkbox" id="nav" /><label for="nav"></label>
+				<input type="checkbox" id="nav" />
+				<label for="nav"></label>
 				<ul>
 					<li><a href="../resume.html" id="resume-link">RESUME</a></li>
 					<li><a href="../index.html" id="index-link">WORK</a></li>
@@ -25,5 +27,44 @@
 		</div>
 
 		<h2 class="work-header">Northwest Indian Language Institute</h2>
+		<h3>Brochure</h3><br>
+		<ul id="NILI-slideshow">
+			<li><img src="../images/NILI/cover.jpg"></li>
+			<li><img src="../images/NILI/flap.jpg"></li>
+			<li><img src="../images/NILI/inside.jpg"></li>
+			<li><img src="../images/NILI/back.jpg"></li>
+		</ul>
+
+		<h3>Postcard</h3><br>
+		<ul id="NILIcard-slideshow">
+			<li><img src="../images/NILI/postcardfront.jpg"></li>
+			<li><img src="../images/NILI/postcardback.jpg"></li>
+		</ul>
+
+		<h3>T-Shirt</h3><br>
+		<center>
+			<div class="responsive">
+				<img src="../images/NILI/tshirt.jpg" id="nili-shirt">
+			</div>
+		</center>
+		<br><br>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="../bxslider/jquery.bxslider.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				$('#NILI-slideshow').bxSlider({
+					mode: 'fade',
+					auto: true,
+					slideWidth: 800
+				});
+
+				$('#NILIcard-slideshow').bxSlider({
+					mode: 'fade',
+					auto: true,
+					slideWidth: 800
+				});
+			});
+		</script>
 	</body>
 </html>

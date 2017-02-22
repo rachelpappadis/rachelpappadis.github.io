@@ -7,6 +7,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Rachel Pappadis | Led Lenser</title>
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+		<link rel="stylesheet" href="../bxslider/jquery.bxslider.css"/>
 		<link rel="stylesheet" href="../stylesheets/styles.css" type="text/css" media="screen">
 	</head>
 	<body>
@@ -25,5 +26,37 @@
 		</div>
 
 		<h2 class="work-header">Led Lenser</h2>
+
+		<ul id="ledlenser-slideshow">
+			<li><img src="../images/ledlenser/pg1.jpg"></li>
+			<li><img src="../images/ledlenser/pg2.jpg"></li>
+			<li><img src="../images/ledlenser/pg3.jpg"></li>
+			<li><img src="../images/ledlenser/pg4.jpg"></li>
+			<li><img src="../images/ledlenser/pg5.jpg"></li>
+			<li><img src="../images/ledlenser/pg6.jpg"></li>
+			<li><img src="../images/ledlenser/pg7.jpg"></li>
+			<li><img src="../images/ledlenser/pg8.jpg"></li>
+			<li><img src="../images/ledlenser/pg9.jpg"></li>
+			<li><img src="../images/ledlenser/pg10.jpg"></li>
+			<li><img src="../images/ledlenser/pg11.jpg"></li>
+			<li><img src="../images/ledlenser/pg12.jpg"></li>
+		</ul>
+
+		<center>
+			<a href="book.pdf" target="_blank">download</a>
+		</center>
+		<br><br>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="../bxslider/jquery.bxslider.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				$('#ledlenser-slideshow').bxSlider({
+					mode: 'fade',
+					auto: true,
+					slideWidth: 800
+				});
+			});
+		</script>
 	</body>
 </html>
