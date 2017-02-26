@@ -88,6 +88,11 @@ a:hover {
   color: #1b7b76;
 }
 
+.caption {
+  max-width: 810px;
+  margin: 5em auto 3em;
+}
+
 /************ NAVBAR *************/
 
 .inner {
@@ -535,6 +540,10 @@ nav > ul li ul li > a {
   .third-row-fourth {
     visibility: hidden;
   }
+
+  .caption {
+    padding: 0 3em;
+  }
 }
 
 @media only screen and (max-width: 740px) {
@@ -603,4 +612,10 @@ nav > ul li ul li > a {
   .work {
     height: 155vh;
   }
+}
+
+.responsive img {
+  max-width: 800px;
+  width: 100%;
+  height: auto;
 }
