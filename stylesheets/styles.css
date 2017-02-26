@@ -93,6 +93,11 @@ a:hover {
   margin: 5em auto 3em;
 }
 
+.portfolio-pic {
+  float: left;
+  margin: 0 3em 0 0;
+}
+
 /************ NAVBAR *************/
 
 .inner {
@@ -145,6 +150,7 @@ nav > ul > li > a {
   outline: none;
   width: 100%;
   text-decoration: none;
+  font-size: .75em;
 }
 
 nav > ul > li {
@@ -167,7 +173,7 @@ nav > ul li ul li > a {
   display: none;
 }
 
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 950px) {
 	label {
     display: block;
     background: #fff;
@@ -299,7 +305,7 @@ nav > ul li ul li > a {
   display: none;
 }
 
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 950px) {
 	nav ul {
     display: none;
 	}
@@ -378,6 +384,34 @@ nav > ul li ul li > a {
   }
 }
 
+@media screen and (max-width: 450px) {
+  [type="checkbox"]:checked ~ ul {
+    display: block;
+    margin-top: 10px;
+	}
+
+  #resume-link {
+    margin: 0;
+  }
+
+  #index-link {
+    margin: 0;
+  }
+
+  #contact-link {
+    margin: 0;
+  }
+
+  .portfolio-pic {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .about-me p {
+    margin: 2em 0 0;
+  }
+}
 
 /**************************************/
 
