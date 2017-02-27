@@ -90,7 +90,7 @@ a:hover {
 
 .caption {
   max-width: 810px;
-  margin: 5em auto 3em;
+  margin: 2em auto 3em;
 }
 
 .portfolio-pic {
@@ -576,7 +576,7 @@ nav > ul li ul li > a {
   }
 
   .caption {
-    padding: 0 3em;
+    padding: 0 1em;
   }
 }
 
