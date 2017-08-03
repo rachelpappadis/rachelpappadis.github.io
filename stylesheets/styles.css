@@ -89,8 +89,9 @@ a:hover {
 }
 
 .caption {
-  max-width: 810px;
+  max-width: 1000px;
   margin: 2em auto 3em;
+  
 }
 
 .portfolio-pic {
@@ -649,7 +650,7 @@ nav > ul li ul li > a {
 }
 
 .responsive img {
-  max-width: 800px;
+  max-width: 1000px;
   width: 100%;
   height: auto;
 }

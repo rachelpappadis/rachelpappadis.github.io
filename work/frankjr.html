@@ -5,8 +5,9 @@
 		<meta name="description" content="Rachel Pappadis Portfolio" />
 		<meta name="author" content="Rachel Pappadis" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Rachel Pappadis | Frank Jr's Day Off</title>
+		<title>Rachel Pappadis | PRM</title>
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+		<link rel="stylesheet" href="../bxslider/jquery.bxslider.css"/>
 		<link rel="stylesheet" href="../stylesheets/styles.css" type="text/css" media="screen">
 		<link rel="icon" href="../images/icon.png" type="image/png" sizes="16x16">
 	</head>
@@ -26,24 +27,42 @@
 			</nav>
 		</div>
 
-		<h2 class="work-header">Frank Jr's Day Off</h2>
+		<h2 class="work-header">Reverse Mortgage Northwest</h2>
 
-		<center>
-			<img src="../images/fjsdayoff.png" ></a>
-		</center>
+		<p class="caption"> 
+			Reverse Mortgage Northwest (RMNW) is a sub division of Pacific Residential Mortgage(PRM) that specializes in reverse mortgages. Their goal is to make the reverse mortgage process worry free and simple. Because I work for PRM, I often take on projects for RMNW. Below is some of the work I have done for them. 
+		</p>
+		<ul id="PRMcards-slideshow">
+			<li><img src="../images/rmnw/postcard_1r.png"></li>
+			<li><img src="../images/rmnw/postcard_2r.png"></li>
+			<li><img src="../images/rmnw/flyer_1r.png"></li>
+		</ul>
 
-		<p class="caption">
-			 In the spring of 2015, I created a short video game for a college group project. To play the game download it <a href="https://github.com/rachelpappadis/frank-jr-day-off" target="_blank">here</a>, unzip the file and click on the .jar file. Make sure that you keep the jar file and the img folder in the same folder or else it will not run properly.
-				<br><br>
-				For this project I did quality assurance and assisted with graphics and game concepts.
-				<br><br>
-				This project was done in collaboration with John Krakowski, Christ Waring, Ryan Stratton, and Xu Yuanfei.
-			</p>
 
-	<center>
-		<a href="https://github.com/rachelpappadis/frank-jr-day-off" target="_blank">download</a>
-		<br><br>
-	</center>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="../bxslider/jquery.bxslider.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				$('#web-slideshow').bxSlider({
+					mode: 'fade',
+					auto: true,
+					slideWidth: 1000
+				});
+
+				$('#guide-slideshow').bxSlider({
+					mode: 'fade',
+					auto: true,
+					slideWidth: 1000
+				});
+
+				$('#PRMcards-slideshow').bxSlider({
+					mode: 'fade',
+					auto: true,
+					slideWidth: 1000
+				});
+			});
+		</script>
 
 	</body>
 </html>

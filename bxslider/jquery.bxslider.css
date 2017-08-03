@@ -33,7 +33,7 @@
 	border:  1px solid #ccc;
 	left: -5px;
 	background: #fff;
-	
+
 	/*fix other elements on the page moving (on Chrome)*/
 	-webkit-transform: translatez(0);
 	-moz-transform: translatez(0);
@@ -101,7 +101,7 @@
 /* DIRECTION CONTROLS (NEXT / PREV) */
 
 .bx-wrapper .bx-prev {
-	left: 10px;
+
 	background: url(images/controls.png) no-repeat 0 -32px;
 }
 
