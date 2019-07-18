@@ -465,6 +465,7 @@ nav > ul li ul li > a {
   top: 50%;
   left: 50%;
   font-size: 20px;
+  text-shadow: 1.5px 1.5px black;
   z-index: 1;
   -webkit-transform-origin: top left;
   -moz-transform-origin: top left;
@@ -658,3 +659,4 @@ nav > ul li ul li > a {
   width: 100%;
   height: auto;
 }
+
