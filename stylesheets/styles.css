@@ -84,9 +84,7 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: #1b7b76;
-}
+
 
 .caption {
   max-width: 1000px;
@@ -464,7 +462,9 @@ nav > ul li ul li > a {
 
 .diamond p {
   position: relative;
-  line-height: 215px;
+  top: 50%;
+  left: 50%;
+  font-size: 20px;
   z-index: 1;
   -webkit-transform-origin: top left;
   -moz-transform-origin: top left;
@@ -473,6 +473,8 @@ nav > ul li ul li > a {
   -moz-transform: rotate(-45deg) translate(-75px, 0);
   transform: rotate(-45deg) translate(-75px, 0);
 }
+
+
 
 .empty {
   background: transparent;
@@ -483,7 +485,7 @@ nav > ul li ul li > a {
 }
 
 .thumb:hover {
-  filter: brightness(70%);
+  filter: brightness(50%);
 }
 
 .no-csstransforms h3 {
@@ -523,7 +525,8 @@ nav > ul li ul li > a {
 }
 
 #ledlenser {
-  background: url(../images/ledlenser.jpg) no-repeat -50px -40px;
+  background: url(../images/ivet.jpg) no-repeat -50px -40px;
+
 }
 
 #sizzlepie {
@@ -531,12 +534,13 @@ nav > ul li ul li > a {
 }
 
 #frankjr {
-  background: url(../images/frankjr.jpg) no-repeat -50px -40px;
+  background: url(../images/rmnw.jpg) no-repeat -50px -40px;
 }
 
 #envision {
-  background: url(../images/envision.jpg) no-repeat -50px -40px;
+  background: url(../images/orcider.jpg) no-repeat -50px -40px;
 }
+
 
 /************** MEDIA QUERIES ************/
 
