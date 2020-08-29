@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Rachel Pappadis Portfolio" />
+		<meta name="author" content="Rachel Pappadis" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Rachel Pappadis | Storables</title>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
+		<link rel="stylesheet" href="../stylesheets/styles.css" type="text/css" media="screen" >
+		<link rel="stylesheet" href="../bxslider/jquery.bxslider.css"/>
+		<link rel="icon" href="../images/icon.png" type="image/png" sizes="16x16">
+	</head>
+	<body>
+		<div class="inner">
+			<nav>
+				<a href="../index.html" class="logo">
+					<img src="../images/rachelpappadis.png" height="30" alt="Rachel Pappadis">
+				</a>
+				<input type="checkbox" id="nav" /><label for="nav"></label>
+				<ul>
+					<li><a href="../resume.html" id="resume-link">RESUME</a></li>
+					<li><a href="../index.html" id="index-link">WORK</a></li>
+					<li><a href="../about.html" id="about-link">ABOUT</a></li>
+					<li><a href="../contact.html" id="contact-link">CONTACT</a></li>
+				</ul>
+			</nav>
+		</div>
+
+		<h2 class="work-header">Storables</h2>
+		<h3>Email Blasts</h3>
+		<br>
+		<ul id="sizzle-desktop">
+			<li><img src="../images/storables/emails.png"></li>
+			<li><img src="../images/storables/emails2.png"></li>
+			<li><img src="../images/storables/emails3.png"></li>
+		
+		</ul>
+
+	<!--	<h3>Signage</h3>
+		<br>
+		<div class="responsive"><center>
+		<img  src="../images/comingsoon.jpg">
+		</center></div>
+
+		<p class="caption">
+			Under construction! Please check back soon. 
+		</p> -->
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="../bxslider/jquery.bxslider.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				$('#sizzle-desktop').bxSlider({
+					mode: 'fade',
+					auto: true,
+					slideWidth: 1000
+				});
+			});
+		</script>
+	</body>
+</html>
+
