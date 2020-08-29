@@ -525,20 +525,20 @@ nav > ul li ul li > a {
   background: url(../images/prm.jpg) no-repeat -50px -50px;
 }
 
-#ledlenser {
+#ivet {
   background: url(../images/ivet.jpg) no-repeat -50px -40px;
 
 }
 
-#sizzlepie {
+#storables{
   background: url(../images/storables.jpg) no-repeat -50px -40px;
 }
 
-#frankjr {
-  background: url(../images/rmnw.jpg) no-repeat -50px -40px;
+#vacasa {
+  background: url(../images/vacasa_tile.jpg) no-repeat -50px -40px;
 }
 
-#envision {
+#orcider {
   background: url(../images/orcider.jpg) no-repeat -50px -40px;
 }
 
@@ -659,4 +659,3 @@ nav > ul li ul li > a {
   width: 100%;
   height: auto;
 }
-
