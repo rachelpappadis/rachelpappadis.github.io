@@ -27,11 +27,11 @@ menu, nav, section, summary {
 
 body {
   font-family: 'Open Sans', sans-serif;
-  color: #5c3e52;
+  color: #000;
 }
 
 h2, h3 {
-  font-weight: 200;
+  font-weight: 300;
 }
 
 h2 {
@@ -89,7 +89,7 @@ a {
 .caption {
   max-width: 1000px;
   margin: 2em auto 3em;
-  
+
 }
 
 .portfolio-pic {
@@ -520,6 +520,11 @@ nav > ul li ul li > a {
 #nili {
   background: url(../images/nili.jpg) no-repeat -50px -40px;
 }
+
+#amazon {
+  background: url(../images/amazon.png) no-repeat -200px -100px;
+}
+
 
 #prm {
   background: url(../images/prm.jpg) no-repeat -50px -50px;
