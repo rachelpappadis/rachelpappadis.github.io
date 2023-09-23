@@ -437,6 +437,7 @@ nav > ul li ul li > a {
 
 .thumb {
   background-color: #ddd;
+  border-radius: 10px;
   position: relative;
   overflow: hidden;
 }
@@ -448,6 +449,7 @@ nav > ul li ul li > a {
   left: -18px;
   width: 250px;
   height: 250px;
+
   background: inherit;
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
@@ -483,6 +485,7 @@ nav > ul li ul li > a {
 
 .solid-empty {
   background: #24a59e;
+  border-radius: 10px;
 }
 
 .thumb:hover {
