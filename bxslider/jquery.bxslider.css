@@ -30,7 +30,6 @@
 ===================================*/
 
 .bx-wrapper .bx-viewport {
-	border:  1px solid #ccc;
 	left: -5px;
 	background: #fff;
 
@@ -102,12 +101,12 @@
 
 .bx-wrapper .bx-prev {
 
-	background: url(images/controls.png) no-repeat 0 -32px;
+	background: url(images/controls2.png) no-repeat 0 -32px;
 }
 
 .bx-wrapper .bx-next {
 	right: 10px;
-	background: url(images/controls.png) no-repeat -43px -32px;
+	background: url(images/controls2.png) no-repeat -43px -32px;
 }
 
 .bx-wrapper .bx-prev:hover {
