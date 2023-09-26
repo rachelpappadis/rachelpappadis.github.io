@@ -31,6 +31,14 @@ body {
   background-color: #fff;
 }
 
+h1.nav {
+  font-family: 'MuseoModerno', sans-serif; 
+  font-size: 45px; 
+  font-weight: 700; 
+  font-style: italic; 
+  color: #24a59e;
+}
+
 h2, h3 {
   font-weight: 300;
 }
