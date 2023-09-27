@@ -31,6 +31,11 @@ body {
   background-color: #fff;
 }
 
+body.homepage {
+  background-color: #24a59f50;
+}
+
+
 h1.nav {
   font-family: 'MuseoModerno', sans-serif; 
   font-size: 45px; 
@@ -40,16 +45,17 @@ h1.nav {
 }
 
 h2, h3 {
-  font-weight: 300;
+  font-family: 'MuseoModerno', sans-serif; 
+  font-weight: 700;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 37px;
   text-align: left;
 }
 
 h3 {
-  font-size: 25px;
+  font-size: 30px;
   text-align: center;
 }
 
@@ -69,7 +75,13 @@ h3 {
 .work-header {
   text-align: center;
   clear: both;
-  margin: 2em 0 1em;
+  margin: .3em 0 .5em;
+}
+
+.contact-header {
+  text-align: center;
+  clear: both;
+  margin: 2em 0 .3em;
 }
 
 .resume {
@@ -116,7 +128,7 @@ a {
 }
 
 .logo img {
-  margin-top: 5px;
+  margin-top: 20px;
 }
 
 nav {
@@ -129,22 +141,26 @@ nav a {
 
 nav > ul {
   float: right;
+  font-family: 'MuseoModerno', sans-serif; 
+  font-size: 25px; 
+  font-weight: 600; 
+  margin-top: 27px
 }
 
 nav > ul > li {
   text-align: center;
-  line-height: 40px;
   margin-left: 70px;
 }
 
 nav > ul li ul li {
   width: 100%;
   text-align: left;
+  
 }
 
 nav ul li:hover {
   cursor: pointer;
-  position: relative;
+  position: relativebott;
 }
 nav ul li:hover > ul {
   display: block;
@@ -411,7 +427,7 @@ nav > ul li ul li > a {
   }
 
   .portfolio-pic {
-    float: none;
+    float: right;
     display: block;
     margin: 0 auto;
   }
@@ -475,6 +491,9 @@ nav > ul li ul li > a {
   position: relative;
   top: 50%;
   left: 50%;
+  font-family: 'MuseoModerno', sans-serif;  
+  font-weight: 700; 
+  color: #fff;
   font-size: 20px;
   text-shadow: 1.5px 1.5px black;
   z-index: 1;
