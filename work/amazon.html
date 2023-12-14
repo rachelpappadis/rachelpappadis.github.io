@@ -40,14 +40,31 @@
 				<li><img src="../images/amazon/amazon5.png"></li>
 				<li><img src="../images/amazon/amazon6.png"></li>
 			</ul>
-	
 
-	
+			<br />
+			<h2 class="work-header">social media</h2>
+			<br>
+
+				<ul id="amazon-soc">
+					<li><img src="../images/amazon/amazon_soc.png"></li>
+					<li><img src="../images/amazon/amazon_soc2.png"></li>
+					<li><img src="../images/amazon/amazon_soc3.png"></li>
+					<li><img src="../images/amazon/amazon_soc4.png"></li>
+				</ul>
+
+
+
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 			<script src="../bxslider/jquery.bxslider.min.js"></script>
 			<script>
 				$(document).ready(function() {
 					$('#amazon-desktop').bxSlider({
+						mode: 'fade',
+						auto: true,
+						slideWidth: 1000
+					});
+
+					$('#amazon-soc').bxSlider({
 						mode: 'fade',
 						auto: true,
 						slideWidth: 1000
